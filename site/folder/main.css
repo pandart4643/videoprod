@@ -1,0 +1,161 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #17191C;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+ * {
+   box-sizing: border-box;
+ }
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 0px;
+}
+
+.menu {
+  position: absolute;
+top: 42px;
+left: 250px;
+}
+
+.contacts {
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+.menu__item--active .menu__link {
+  color: #DA0100;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #DA0100
+}
+
+.contacts {
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #DA0100
+}
+
+.prewiew {
+  width: 780px;
+  text-align: center;
+}
+
+.prewiew__title {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.prewiew___text {
+  font-size: 18px;
+  margin-bottom: 44px;
+}
+
+.prewiew__button  {
+  background: #DA0100;
+  border-radius: 35px;
+  padding: 18px 54px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.service {
+  margin-bottom: 174px;
+}
+.service__title {
+
+}
+.service__item {
+  min-height: 476px;
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 24px;
+  width: 362px;
+}
+
+.service__item:last-child {
+  margin-right: 0;
+}
+
+.service__icon {
+  min-height: 80px;
+  margin-bottom: 25px;
+}
+
+
+.service__info {
+  padding: 18px 55px;
+  color: #000000;
+}
+
+.service__title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service__description {
+  display: inline-block;
+  vertical-align: top;
+  width: 102px;
+  margin-right: 81px;
+}
+
+.service__description:last-child {
+  margin-right: 0;
+}

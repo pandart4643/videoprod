@@ -20,8 +20,15 @@ ul {
 ul li {
   list-style: none;
 }
+p {
+  margin-top: 0;
+}
  * {
    box-sizing: border-box;
+ }
+
+ .main-page-wrapper {
+   background: url("../images/bg/hero.jpg") center top no-repeat, url("../images/bg/bottom-pic.jpg") center bottom 170px no-repeat;
  }
 .container {
   margin: 0 auto;
@@ -43,13 +50,18 @@ ul li {
 .menu {
   position: absolute;
 top: 42px;
-left: 250px;
+left: 241px;
 }
 
 .contacts {
   position: absolute;
   top: 28px;
   right: 0;
+}
+
+.contacts__desc {
+  color: #9A9A9A;
+  font-size: 11px;
 }
 
 .menu__item {
@@ -60,9 +72,11 @@ left: 250px;
 }
 
 .menu__item--active .menu__link {
-  color: #DA0100;
+  color: #ff5400;
 }
-
+.menu__list {
+  font-size: 14px;
+}
 .menu__link {
   font-size: 14px;
   text-decoration: none;
@@ -98,7 +112,7 @@ left: 250px;
   font-size: 72px;
   font-weight: 800;
   line-height: 1.1;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   text-transform: uppercase;
   
 
@@ -187,14 +201,13 @@ left: 250px;
 .news__title {
   margin-bottom: 51px;
 }
-.news {
-  margin-bottom: 53px;
-}
+
 .news__item {
   width: 557px;
   display: inline-block;
   vertical-align: top;
   position: relative;
+  margin-bottom: 58px;
 }
 
 .news__img {
@@ -202,7 +215,6 @@ left: 250px;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: .4;
 }
 
 .news__info {
@@ -228,6 +240,7 @@ left: 250px;
 
 .paginator{
   text-align: center;
+  margin-bottom: 153px;
 }
 
 .paginator__display, .paginator__list {
@@ -245,18 +258,132 @@ vertical-align: middle;
 }
 
 .paginator__item--active .paginator__link {
-  background: #FF5500;
+background: #FF5500;
 }
+
 
 .paginator__link {
   display: block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  position: relative;
   text-decoration: none;
   font-weight: bold;
-  line-height: 32;
+  line-height: 32px;
+}
+
+.about:before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+}
+.about:before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("../images/decor/cameraman.jpg") center center / cover no-repeat;
+}
+
+.about__desc {
+  background: #fff;
+  color: #060606;
+  padding: 70px 81px;
+  width: 785px;
+  margin-left: -142px;
+  margin-top: 98px;
+  margin-bottom: 53px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about__desc-text {
+  margin-bottom: 43px;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child{
+  margin-bottom: 0;
+}
+
+.about__button {
+  background: #DA0100;
+  border-radius: 35px;
+  padding: 18px 55px;
+  margin-right: 140px;
+  margin-left: 81px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-container__content {
+  border-top: 1px solid #fff;
+}
+.footer {
+  height: 138px;
+  position: relative;
+  margin-top: 12px;
+}
+
+.socials {
+  position: absolute;
+  top: 53px;
+  right: 300px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials__item--icon--telegram .socials__link{
+  background-image: url(../images/icons/socials/t.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url(../images/icons/socials/t2.png);
+}
+
+.socials__item--icon--vk .socials__link{
+  background-image: url(../images/icons/socials/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(../images/icons/socials/vk2.png);
+}
+
+.socials__item--icon--fb .socials__link{
+  background-image: url(../images/icons/socials/f.png);
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(../images/icons/socials/f2.png);
+}
+.socials__item--icon--instagram .socials__link{
+  background-image: url(../images/icons/socials/in.png);
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+  background-image: url(../images/icons/socials/in2.png);
 }
 
 
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}

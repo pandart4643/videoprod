@@ -2,151 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
     <title>test page</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="folder/main.css">
+    
 </head>
     <body>
      <div class="wrapper main-page-wrapper">
          <section class="hero">
              <div class="container">
          <header class="header">
-             <a href="/" class="logo">
-                <img src="./images/logo.png"  class="logo__img">
-             </a>
-             <nav class="menu">
-                 <ul class="menu__list">
-                     <li class="menu__item menu__item--active">
-                         <a href="#" class="menu__link">Главная</a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="#" class="menu__link">Услуги</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">Отзывы</a>
-                    </li>
-                 </ul>
-             </nav>
-               <adress class="contacts">
-                  <a href="tel: +78007003030" class="contacts__phone">88007003030</a>
-                  <div class="contacts__dropdown-title">График работы</div>
-               </adress>
-         </header>
+             <div class="header__col">
+                <a href="/" class="logo">
+                    <img src="./images/logo.png"  class="logo__img">
+                 </a>
+                 <nav class="menu">
+                     <ul class="menu__list">
+                         <li class="menu__item menu__item--active">
+                             <a href="#" class="menu__link">Главная</a>
+                         </li>
+                         <li class="menu__item">
+                            <a href="#" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Отзывы</a>
+                        </li>
+                     </ul>
+                 </nav>
+                </div>
+             <div class="header__col header__col--align--right">
+                <adress class="contacts">
+                    <a href="tel: +78007003030" class="contacts__phone">88007003030</a>
+                    <div class="contacts__dropdown-title">График работы</div>
+                 </adress>
+                 </header>
+                 <div class="hero__content">
+                     <div class="hero__text--section">
+                         <h1 class="hero__title">Снимем для вас креативное видео</h1>
+                         <h4 class="hero__subtitle">Креативный видеопродакшн полного цикла</h4>
+                         <a href="#" class="btn">Подробнее</a>
+                     </div>
+                 </div>
              </div>
-             </section>
-
-             
-         <div class="prewiew">
-             <div class="prewiew__title">
-                 Снимем для вас креативное видео
-             </div>
-             <div class="prewiew___text">
-                 Креативный видеопродакшн полного цикла
-             </div>
-             <button class="prewiew__button button">Подробнее</button>
-         </div>
+         </section>
+     
          <div class="service">
-             <ul class="service__list">
-                 <li class="service__item">
-                     <div class="service__icon">
-                        <img src="./images/icons/offers/tv.png" alt="Иконка" class="service__icon-img">
-                     </div>
-                     <div class="service__info">
-                         <h3 class="service__title">
-                             Реклама
-                         </h3>
-                         <div class="service__description">
-                             <div class="service__description-block">
-                                 От 5 человек на проект
-                             </div>
-                             <div class="service__description-block">
-                                28 дней работы в среднем
-                             </div>
-                         </div>
-                         <div class="service__text">
-                            Креатив и производство рекламы, документального и корпоративного контента.
-                         </div>
-                         <button class= "service__button button">Подробнее</button>
-                     </div>
-                 </li>
-                 <li class="service__item">
+            <ul class="service__list">
+                <li class="service__item">
                     <div class="service__icon">
-                       <img src="./images/icons/offers/clapper.png" alt="Иконка" class="service__icon-img">
+                       <img src="./images/icons/offers/tv.png" alt="Иконка" class="service__icon-img">
                     </div>
                     <div class="service__info">
                         <h3 class="service__title">
-                            Видеоклипы
+                            Реклама
                         </h3>
                         <div class="service__description">
                             <div class="service__description-block">
-                                От 7 человек на проект
+                                От 5 человек на проект
                             </div>
                             <div class="service__description-block">
-                                21 дней работы в среднем
+                               28 дней работы в среднем
                             </div>
                         </div>
                         <div class="service__text">
-                            Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!
+                           Креатив и производство рекламы, документального и корпоративного контента.
                         </div>
-                        <button class="service__button button">Подробнее</button>
+                        <button class= "service__button button">Подробнее</button>
                     </div>
                 </li>
                 <li class="service__item">
-                    <div class="service__icon">
-                       <img src="./images/icons/offers/film.png" alt="Иконка" class="service__icon-img">
-                    </div>
-                    <div class="service__info">
-                        <h3 class="service__title">
-                            Свадьба
-                        </h3>
-                        <div class="service__description">
-                            <div class="service__description-block">
-                                 От 2 человек на проект</div>
-                                <div class="service__description-block"> 30 дней работы в среднем</div>
-                            </div>
-                          
-                        <div class="service__text">
-                            Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
+                   <div class="service__icon">
+                      <img src="./images/icons/offers/clapper.png" alt="Иконка" class="service__icon-img">
+                   </div>
+                   <div class="service__info">
+                       <h3 class="service__title">
+                           Видеоклипы
+                       </h3>
+                       <div class="service__description">
+                           <div class="service__description-block">
+                               От 7 человек на проект
+                           </div>
+                           <div class="service__description-block">
+                               21 дней работы в среднем
+                           </div>
+                       </div>
+                       <div class="service__text">
+                           Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!
+                       </div>
+                       <button class="service__button button">Подробнее</button>
+                   </div>
+               </li>
+               <li class="service__item">
+                   <div class="service__icon">
+                      <img src="./images/icons/offers/film.png" alt="Иконка" class="service__icon-img">
+                   </div>
+                   <div class="service__info">
+                       <h3 class="service__title">
+                           Свадьба
+                       </h3>
+                       <div class="service__description">
+                           <div class="service__description-block">
+                                От 2 человек на проект</div>
+                               <div class="service__description-block"> 30 дней работы в среднем</div>
+                           </div>
+                         
+                       <div class="service__text">
+                           Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.
+                       </div>
+                       <button class="service__button button">Подробнее</button>
+                   </div>
+               </li>
+            </ul>
+            
+        </div>
+         
+        <div class="section">
+            <div class="container">
+                <h2 class="section__title">Новости и акции</h2>
+                <ul class="news">
+                    <li class="news__item single-news">
+                        <img src="./images/content/news/camera.jpg" alt="Снимем ваш клип на 50% дешевле" class="news__cover">
+                        <div class="single-news__text-content">
+                            <time class="single-news__date">декабрь 2019</time>
+                            <div class="single-news__title">Снимем ваш клип на 50% дешевле</div>
+                            <div class="single-news__desc">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</div>
                         </div>
-                        <button class="service__button button">Подробнее</button>
-                    </div>
-                </li>
-             </ul>
-         </div>
-         <div class="news">
-             <h3 class="news__title">
-                 Новости и акции
-             </h3>
-             <ul class="news__list">
-                <li class="news__item">
-                    <img src="./images/content/news/camera.jpg" alt="Bg" class="news__img">
-                    <div class="news__info">
-                        <div class="news__date">
-                        <div class="news__date-month"> Декабрь</div> 
-                        <div class="news__date-year">2021</div>
-                            <h3 class="news__subtitle">
-                                Снимем ваш клип на 50% дешевле
-                            </h3>
-                            <p class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+                    </li>
+                    <li class="news__item single-news">
+                        <img src="./images/content/news/wedding.jpg" alt="" class="news__cover">
+                        <div class="single-news__text-content">
+                            <time class="single-news__date">декабрь 2019</time>
+                            <div class="single-news__title">Снимем ваш клип на 50% дешевле</div>
+                            <div class="single-news__desc">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</div>
                         </div>
-                    </div>
-                </li>
-                <li class="news__item">
-                    <img src="./images/content/news/wedding.jpg" alt="Bg" class="news__img">
-                    <div class="news__info">
-                        <div class="news__date">
-                            <div class="news__date-month"> Декабрь</div>
-                            <div class="news__date-year">2021</div>
-                            <h3 class="news__subtitle">
-                                Акция для молодожёнов
-                            </h3>
-                            <p class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-                        </div>
-                    </div>
-                </li>
-                 
-             </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
              <div class="paginator">
                  <div class="paginator__display">
                      Страница <span class="paginator__display-current">1</span> из <span class="paginator__display-all">7</span> 
@@ -176,24 +172,32 @@
                  </ul>
              </div>
          </div>
+            <section class="section">
+                <div class="container">
          <div class="about">
-             <div class="about__desc">
-                 <h2 class="about__title">
-                     О нас
-                 </h2>
-                 <div class="about__desc-text">
-                     <p>
-                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident dolorum harum unde velit illum, consequatur libero similique ea eos a. Officia deleniti, itaque soluta aliquam quia repellendus architecto quae, sed ipsum reprehenderit praesentium exercitationem, culpa quaerat amet officiis labore nobis earum vel doloremque nemo reiciendis sapiente ab illum ullam.
-                     </p>
-                 </div>
-                 <button class="about__button button">Подробнее</button>
-             </div>
-         </div>
-     </div>
+            <div class="about__desc">
+                <h2 class="about__title">
+                    О нас
+                </h2>
+                <div class="about__desc-text">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum provident dolorum harum unde velit illum, consequatur libero similique ea eos a. Officia deleniti, itaque soluta aliquam quia repellendus architecto quae, sed ipsum reprehenderit praesentium exercitationem, culpa quaerat amet officiis labore nobis earum vel doloremque nemo reiciendis sapiente ab illum ullam.
+                    </p>
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+         
+</div>
      
     <footer class="footer-container">
         <div class="container footer-container__content">
-            <div class="footer">
+            <div class="footer footer-container____section">
+                <div class="footer__col">
+                
                 <a href="/" class="logo">
                     <img src="./images/logo.png"  class="logo__img">
                  </a>
@@ -210,6 +214,9 @@
                         </li>
                      </ul>
                  </nav>
+                </div>
+                 <div class="footer__col footer__col--align--right">
+                
                  <ul class="socials">
                     <li class="socials__item socials__item--icon--telegram">
                         <a href="" class="socials__link"></a>
@@ -228,9 +235,12 @@
                        <div class="contacts__desc">Бесплатный звонок по России</div>
                       <a href="tel: +78007003030" class="contacts__phone">88007003030</a>
                    </adress>
+                </div>
              
             </div>
         </div>
+    </div>
     </footer>
+    
 </body>
 </html>

@@ -100,7 +100,13 @@ p {
   padding: 20px 0;
 }
 
-.contacts__desc {
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contactss__desc {
   color: #9A9A9A;
   font-size: 11px;
 }
@@ -189,18 +195,11 @@ visibility: visible;
 }
 
 
-.contacts__phone {
+.contactss__phone {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 4px;
 }
-
-.contacts__dropdown-title {
-  font-size: 13px;
-  text-decoration: underline;
-  color: #DA0100;
-}
-
 
 .hero__content {
   text-align: center;

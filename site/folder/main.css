@@ -77,7 +77,7 @@ p {
 }
 .logo {
  display: block;
- margin-right: 160px;
+ margin-right: 90px;
   
 }
 
@@ -87,12 +87,10 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  
-  position: absolute;
-}
+  }
 
 .contacts__content {
-  width: 1140px;
+  width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content:flex-end;
@@ -102,10 +100,16 @@ p {
   padding: 20px 0;
 }
 
+.contacts__desc {
+  color: #9A9A9A;
+  font-size: 11px;
+}
 .h-drop {
   background: #1E1F20;;
   color: #1E1F20;
-  position: relative;
+  position: absolute;
+  align-items: right;
+  margin-left: 65px;
 }
 
 .h-drop:hover .h-drop__content{
@@ -116,9 +120,11 @@ visibility: visible;
 
 .h-drop__title {
   font-size: 13px;
+  display: flex;
+  align-items: center;
   text-decoration-line: underline;
-  text-align: right;
   color: #FF3D00;
+
 }
 
 .h-drop__content {
@@ -246,15 +252,6 @@ visibility: visible;
 
 
 .btn--color--orange:hover {
-  background: #FF3D00;
-}
-
-.btn--color--red {
-  background: #FF5500;
-}
-
-
-.btn--color--red:hover {
   background: #FF3D00;
 }
 
@@ -515,15 +512,15 @@ background: #FF5500;
 .footer__col--align--right {
   align-items: flex-end;
 }
-
+.socials {
+  margin-right: 74px;
+}
 .socials__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
 }
-.socials {
-  margin-right: 74px;
-}
+
 .socials__item:last-child {
   margin-right: 0;
 }

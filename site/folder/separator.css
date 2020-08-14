@@ -1,0 +1,25 @@
+.separator {
+  background:  url("../images/decor/party.png") right 20% bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 49%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.num__title {
+  color: #FF5300;
+}
+
+.numeral {
+  font-weight: bold;
+  color: #000000;
+}

@@ -1,0 +1,47 @@
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px;
+  background: #F4F5F5;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E77A4;
+  margin-bottom: 13px;
+}
+.review__user:after{
+  margin-left: 7px;
+  content: url(../images/icons/socials/vk-colored.png);
+  height: 29px;
+}
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.review__title {
+  font-size: 30px;
+  color: #202020;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.review__content-text {
+  color: #818181;
+  margin-bottom: 49px;
+}
+
+.review__date {
+  color: #1A1B1E;
+  font-size: 14px;
+  font-weight: 600;
+}

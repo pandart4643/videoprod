@@ -1,0 +1,23 @@
+.contacts {
+  text-align: right;
+  top: 0;
+  left: 0;
+  right: 0;
+  }
+
+.contacts__content {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.contacts__contact {
+  padding: 20px 0;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}

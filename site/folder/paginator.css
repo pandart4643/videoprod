@@ -28,7 +28,10 @@
   background: #FF5500;
   }
   
-  
+  .paginator__item:hover .paginator__link:hover {
+    background: #FF5300;
+    color: #fff;
+  }
   .paginator__link {
     display: block;
     width: 32px;

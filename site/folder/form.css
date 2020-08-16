@@ -5,6 +5,7 @@
 
 .form__input {
   flex: 1;
+  resize: none;
   margin-right: 28px;
   border-radius: 5px;
   border: none;
@@ -12,6 +13,12 @@
   padding: 19px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  outline: none;
+  border: 1px solid transparent;
+}
+.form__input:focus {
+  border: 1px solid #CCCCCC;
+
 }
 .form__input:last-child {
   margin-right: 0;

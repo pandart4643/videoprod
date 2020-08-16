@@ -48,7 +48,7 @@ visibility: visible;
   border: 11px solid transparent;
   border-top: 0;
   border-bottom-color:rgba(237, 237, 237, 0.8);
-  border-block-width: 9px;
+  border-bottom-width: 9px;
   position: absolute;
   bottom: 100%;
   right: 37px;
@@ -56,7 +56,9 @@ visibility: visible;
 
 .h-drop__content::after {
   content: '';
-  position: relative;
+  display: block;
+  position: absolute;
+  left: 0;
   width: 100%;
   height: 10px;
   bottom: 100%;

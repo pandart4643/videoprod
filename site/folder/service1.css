@@ -17,8 +17,11 @@
   border-radius: 4px;
   margin-bottom: 180px;
   overflow: hidden;
-
 }
+.service__item:hover {
+  border: 5px solid #CCCCCC;
+}
+
 .service__item:last-child{
   margin-right: 0;
 }
